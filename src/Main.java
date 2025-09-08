@@ -4,7 +4,6 @@ public class Main {
         int deposits = 2700;        // сумма пополнения
 
         int bonus; // бонусные рубли
-        bonus = deposits / 100;
         if (deposits > 1000) {
             bonus = deposits / 100;
         } else {
